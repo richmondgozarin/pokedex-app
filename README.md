@@ -12,8 +12,9 @@ tsconfig is a JSON file that helps to configure TypeScript. Having a config file
 
 `tsc init`
 
-## Config File
-`{
+## tsconfig file
+```
+{
     "compilerOptions": {
         "target": "es5",
         "module": "commonjs",
@@ -24,7 +25,8 @@ tsconfig is a JSON file that helps to configure TypeScript. Having a config file
         "forceConsistentCasingInFileNames": true
     },
     "include": ["src"]
-}`
+}
+```
 
 This config file is much verbose than that, I removed the comments and unused values to make it easy to read.
 
